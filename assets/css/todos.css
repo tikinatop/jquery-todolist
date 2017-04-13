@@ -1,6 +1,6 @@
 body {
 	font-family: "Roboto";
-	background: #1D2B64; /* fallback for old browsers */
+	background: #1D2B64; /* Pour navigs plus ancciens */
 	background: -webkit-linear-gradient(to left, #1D2B64 , #F8CDDA); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #1D2B64 , #F8CDDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -73,7 +73,7 @@ li:hover span {
 	opacity: 1;
 }
 
-#container {
+#conteneur {
 	width: 400px;
 	margin: 100px auto;
 	background: #f7f7f7;
@@ -85,17 +85,17 @@ li:hover span {
 	cursor: pointer;
 }
 
-.completed {
+.completee {
 	color: grey;
 	text-decoration: line-through;
 }
 
-.noselect {
+.nonselect {
   cursor: default;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
   -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently*/
+  user-select: none;           /* Couramment */
 }
